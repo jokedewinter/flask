@@ -2,16 +2,13 @@
 {% block content %}
     <h1>About Flask</h1>
     <p>Flask is a micro web framework written in Python.</p>
-    <p>Applications that use the Flask framework include Pinterest,
-      LinkedIn, and the community web page for Flask itself.</p>
-      
+    <p>Applications that use the Flask framework include Pinterest, LinkedIn, and the community web page for Flask itself.</p>
     <p>Let’s keep in touch!</p>
     <div id="contact-form">
-		<form method="post" action="">
+		<form method="post" action="/confirmation">
 		    <label for="email">Email address:</label>
 		    <input type="email" id="email" name="email" required="required">
-		    <input type="submit" value="Submit" name="submit" id="submit-button">
+		    <input type="submit" id="submit-button" name="submit" value="Submit" >
 		</form>
     </div>
-    
 {% endblock %}

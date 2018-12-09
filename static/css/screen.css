@@ -1,0 +1,42 @@
+
+body {
+	width: 90%;
+	margin: 2em auto;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+header h1 {
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+form {
+	float: left;
+	margin-top: 2em;
+	padding-top: 2em;
+}
+
+label,
+input {
+	display: block;
+	margin-bottom: 1em;
+}
+
+input {
+	padding: 0.5em;
+	width: 250px;
+}
+
+#submit-button {
+	width: auto;
+	padding: 0.5em;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	background: black;
+	border: none;
+	color: white;
+}
