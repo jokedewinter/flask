@@ -24,6 +24,6 @@
 - Prepare the viewing of your app with heroku: $ heroku ps:scale web=1
 - And now view it: $ heroku open
 
+The Heroku version: https://floating-river-14266.herokuapp.com
 
-##Useful links:
-https://stackoverflow.com/questions/52039991/flask-application-failing-on-heroku-no-module-named-app
+
