@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
  <head>
-   <meta charset="utf-8">
-   <title>{{title}} | Flask Experiment</title>
-       <link rel="stylesheet" href="{{ url_for('static', filename='css/screen.css') }}">
-     </head>
+     <meta charset="utf-8">
+     <title>{{title}} | Flask Experiment</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/screen.css') }}">
+ </head>
  <body>
-     {% block advert %}
-
-
-    {% endblock %}
-
     <header>
 		<h1>{{title}}</h1>
         <nav>
@@ -19,13 +14,8 @@
             <li><a href="{{ url_for('about') }}">About</a></li>
           </ul>
         </nav>
-      </div>
     </header>
     {% block content %}
-
-
     {% endblock %}
-
-
  </body>
 </html>

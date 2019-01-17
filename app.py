@@ -3,24 +3,24 @@ from random import randint
 app = Flask(__name__)
 
 
-@app.route("/")
+@app.route("/index.html")
 def index():
 	# return name
-	quotes = ["If people do not believe that mathematics is simple, it Neumann",
-			"Computer science is no more about computers than astronomy",
-			"To understand recursion you must first understand recursion", 
-			"You look at things that are and ask, why? I dream of things",
-			"Mathematics is the key and door to the sciences. -- Galileo",
-			"Not everyone will understand your journey. Thats fine."]
-	randomNumber = randint(0,len(quotes)-1)
-	quote = quotes[randomNumber]    
+    quotes = ["If people do not believe that mathematics is simple, it Neumann",
+	"Computer science is no more about computers than astronomy",
+	          "To understand recursion you must first understand recursion",
+	          "You look at things that are and ask, why? I dream of things",
+	          "Mathematics is the key and door to the sciences. -- Galileo",
+	          "Not everyone will understand your journey. That's fine."]
+	random_number = randint(0, len(quotes)-1)
+	quote = quotes[random_number]
 		
 	return render_template("index.html", title="home", **locals())
 
 
 @app.route("/about")
 def about():
-   	return render_template("about.html", title="about")        
+	return render_template("about.html", title="about")
 
 
 @app.route("/confirmation", methods=["POST"])
@@ -30,5 +30,6 @@ def confirmation():
 	result="All OK"
 	return render_template("confirmation.html", title="Form confirmation", **locals())
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+	app.run(debug=True)

@@ -1,0 +1,18 @@
+step 1 - copy flask app folder to the desktop
+step 1.5 - you logged in to heroku
+1.6 - you create an app with heroku create
+
+step 3 - add requirements file
+step 4 - add Procfile with:
+
+ web: gunicorn app:app
+
+
+ step 5 - committing work
+ step 6 - running server - git push heroku master
+
+ Afterwards - work on flask apps.
+
+ rm -rf .git
+ git init
+ (and commit)
