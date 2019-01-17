@@ -3,7 +3,7 @@ from random import randint
 app = Flask(__name__)
 
 
-@app.route("/index.html")
+@app.route("/")
 def index():
 	# return name
     quotes = ["If people do not believe that mathematics is simple, it Neumann",
