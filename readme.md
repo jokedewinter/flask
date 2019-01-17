@@ -1,8 +1,8 @@
-#Heroku and Flask setup instructions
+# Heroku and Flask setup instructions
 
 [View Heroku app](https://floating-river-14266.herokuapp.com)
 
-##The Flask part
+## The Flask part
 - Create a folder for your app. Don't call it "flask".
 - Create a Python engine file to take care of the running (`app.py`).
 - In this file give your app a name (line 3).
@@ -13,7 +13,7 @@ $ python app.py
 ```
 - Make sure your app is a Git repository
 
-##The Heroku part
+## The Heroku part
 - Log into your Heroku account
 - Go to your app folder in terminal and do the following: 
 ```
