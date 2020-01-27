@@ -1,6 +1,6 @@
 # Heroku and Flask setup instructions
 
-[View Heroku app](https://floating-river-14266.herokuapp.com)
+[View Heroku app](https://jdw-flask.herokuapp.com)
 
 ## The Flask part
 - Create a folder for your app. Don't call it "flask".
